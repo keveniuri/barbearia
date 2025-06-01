@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barbearia Lamafia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">LAMAFIA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://instagram.com" target="_blank"><i
+                                class="bi bi-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/5561991571041" target="_blank"><i
+                                class="bi bi-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex flex-column justify-content-center align-items-center text-center">
+        <h1 class="display-3 fw-bold">Barbearia Lamafia</h1>
+        <a href="https://wa.me/5561991571041" target="_blank" class="btn btn-success btn-lg mt-4">
+            Marque seu horário pelo WhatsApp
+        </a>
+    </section>
+
+    <section id="sobre" class="sobre-section container my-5">
+        <div class="row align-items-center justify-content-center text-center text-md-start">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="img/2.jpg" alt="Barbearia" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-3">Sobre nós</h2>
+                <p>Localizada na Quadra 2 conjunto J Lote 19, a LAMAFIA é
+                    inspirada nas barbearias italianas, mistura o clássico e o moderno para proporcionar a melhor
+                    experiência para os nossos clientes.
+
+                    ​
+
+                    Assista aos jogos dos principais campeonatos europeus e nacionais e até jogos da NFL em nossas
+                    televisões ou Telão de 65' polegadas, desfrute de um chopp artesanal gelado ou um café expresso
+                    especial!
+
+                    ​
+
+                    Serviços
+
+                    A Barba Mia oferece cortes de cabelo, barba, selagem, tonalização de barba, massagem,
+                    ventosaterapia, depilação, terapias capilares, Dia do Noivo e muito mais.
+
+
+
+                    Marque já o seu horário e venha conhecer a maior e melhor barbearia de Brasília!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos-section container my-5 text-center">
+        <h2 class="display-4 mb-5">Serviços</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="service-box bg-dark text-white p-4 rounded">
+                    <h3>Corte Clássico</h3>
+                    <p>Um corte tradicional e elegante (social).</p>
+                    <p class="fw-bold">R$ 40,00</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box bg-white text-dark p-4 rounded">
+                    <h3>Corte Moderno</h3>
+                    <p>Estilo atual e descolado (Degradê).</p>
+                    <p class="fw-bold">R$ 50,00</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box bg-secondary text-white p-4 rounded">
+                    <h3>Barba</h3>
+                    <p>Modelagem completa da barba.</p>
+                    <p class="fw-bold">R$ 30,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agenda" class="agenda-section container my-5 text-center">
+        <h2 class="display-4 mb-5">Agenda</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered text-center agenda-table">
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Horários de exemplo -->
+                    <tr>
+                        <td>08:00</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>09:00</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>13:00</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>15:00</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>17:00</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td class="livre">Livre</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                        <td class="reservado">Reservado</td>
+                        <td class="livre">Livre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section container my-5 text-center">
+        <h2 class="display-4 mb-5">Contato</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <i class="bi bi-telephone-fill fs-1 mb-3"></i>
+                <h3>Fale com a gente</h3>
+                <p>Entre em contato pelo WhatsApp:<br><strong><a href="https://wa.me/5561991571041" target="_blank">(61)
+                    99157-1041</a></strong></p>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-geo-alt-fill fs-1 mb-3"></i>
+                <h3>Nosso endereço</h3>
+                <p>Quadra 2 conjunto J Lote 19<br>Brasília - DF</p>
+                <a class="btn btn-outline-light mt-2" href="https://maps.app.goo.gl/CDmASmeWRee5Eu696"
+                    target="_blank">Abrir no Google Maps</a>
+            </div>
+            <div class="col-md-4">
+                <i class="bi bi-clock-fill fs-1 mb-3"></i>
+                <h3>Horário de atendimento</h3>
+                <p>Segunda a Sábado: 9h - 19h<br>Domingo: Fechado</p>
+            </div>
+        </div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15370.207679546478!2d-47.6457926506498!3d-15.61557124431362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a13cca48bb5cd%3A0xa8116233b82f7fd!2sLa%20Mafia%20Afro!5e0!3m2!1spt-BR!2sbr!4v1748795749233!5m2!1spt-BR!2sbr"
+            width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer style="background-color: #222; color: #fff; padding: 30px 20px; text-align: center; font-family: Arial, sans-serif;">
+        <p style="margin: 0; font-size: 14px;">
+          &copy; 2025 Lamafia. Todos os direitos reservados.
+        </p>
+        <p style="margin: 5px 0 0; font-size: 13px;">
+          Este site e seu conteúdo são protegidos por leis de direitos autorais e propriedade intelectual.
+        </p>
+        <p style="margin: 10px 0 0; font-size: 12px; color: #aaa;">
+          Desenvolvido por <a href="https://seudominio.com" style="color: #fff; text-decoration: underline;">SeuNome</a>
+        </p>
+      </footer>
+      
+
+</body>
